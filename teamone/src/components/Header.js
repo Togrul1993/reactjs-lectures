@@ -11,6 +11,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
+import { mainstyle } from '../assets/js/main'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -50,7 +51,7 @@ export default function MenuAppBar() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h5" className={classes.title}>
+          <Typography variant="h5" className={classes.title} style={mainstyle.p}>
             Gallery
           </Typography>
           
@@ -89,3 +90,9 @@ export default function MenuAppBar() {
     </div>
   );
 }
+
+
+/* Mehemmed Task */
+/* 1. Header-a menu elave etmek
+   2. Dizayn uzerinde islediyin isle
+   3. Footer uzerinde deyisiklik */

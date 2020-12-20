@@ -3,7 +3,6 @@ import Paper from "@material-ui/core/Paper"
 import Button from '@material-ui/core/Button';
 
 
-  
 function Customer(props) {
     let {count,text,testBla}=props
     const decreaseMeLocal=()=>{
